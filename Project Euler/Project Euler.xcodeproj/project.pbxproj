@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Project_EulerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Project_EulerAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		F30AEE2C12AEEA1600D3FA75 /* Problem002.m in Sources */ = {isa = PBXBuildFile; fileRef = F30AEE2B12AEEA1600D3FA75 /* Problem002.m */; };
+		F30C06E912D279AB00C5AB00 /* Problem026.m in Sources */ = {isa = PBXBuildFile; fileRef = F30C06E812D279AB00C5AB00 /* Problem026.m */; };
+		F30C06EC12D279B700C5AB00 /* Problem027.m in Sources */ = {isa = PBXBuildFile; fileRef = F30C06EB12D279B700C5AB00 /* Problem027.m */; };
+		F30C06EF12D279C200C5AB00 /* Problem028.m in Sources */ = {isa = PBXBuildFile; fileRef = F30C06EE12D279C200C5AB00 /* Problem028.m */; };
+		F30C06F212D279D000C5AB00 /* Problem029.m in Sources */ = {isa = PBXBuildFile; fileRef = F30C06F112D279D000C5AB00 /* Problem029.m */; };
+		F30C06F512D279DC00C5AB00 /* Problem030.m in Sources */ = {isa = PBXBuildFile; fileRef = F30C06F412D279DC00C5AB00 /* Problem030.m */; };
+		F337350C1321EED000A0B449 /* ProblemXXX.m in Sources */ = {isa = PBXBuildFile; fileRef = F337350B1321EED000A0B449 /* ProblemXXX.m */; };
+		F33E9C0C12C64F0700BED7A2 /* names.txt in Resources */ = {isa = PBXBuildFile; fileRef = F33E9C0B12C64F0700BED7A2 /* names.txt */; };
+		F377EA0812B7F70500C4507C /* Problem013.m in Sources */ = {isa = PBXBuildFile; fileRef = F377EA0712B7F70500C4507C /* Problem013.m */; };
+		F377EA3D12B7F93600C4507C /* Problem014.m in Sources */ = {isa = PBXBuildFile; fileRef = F377EA3C12B7F93600C4507C /* Problem014.m */; };
+		F377EA4012B7F98200C4507C /* Problem015.m in Sources */ = {isa = PBXBuildFile; fileRef = F377EA3F12B7F98200C4507C /* Problem015.m */; };
+		F37A174F12B30B8B003A77C5 /* Problem011.m in Sources */ = {isa = PBXBuildFile; fileRef = F37A174E12B30B8B003A77C5 /* Problem011.m */; };
+		F37FC45712DE38AB00DDCE06 /* Problem031.m in Sources */ = {isa = PBXBuildFile; fileRef = F37FC45612DE38AB00DDCE06 /* Problem031.m */; };
+		F380ED4D12C2A424009AD663 /* Problem021.m in Sources */ = {isa = PBXBuildFile; fileRef = F380ED4C12C2A424009AD663 /* Problem021.m */; };
+		F38F97E1160AA85F003814DE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F38F97E0160AA85F003814DE /* Default-568h@2x.png */; };
+		F39696C512AF4092006D4E4C /* Importer.m in Sources */ = {isa = PBXBuildFile; fileRef = F39696C412AF4092006D4E4C /* Importer.m */; };
+		F398ECEA12B33B330094722D /* Problem012.m in Sources */ = {isa = PBXBuildFile; fileRef = F398ECE912B33B330094722D /* Problem012.m */; };
+		F39E849912B1CD40004AE646 /* Problem006.m in Sources */ = {isa = PBXBuildFile; fileRef = F39E849812B1CD40004AE646 /* Problem006.m */; };
+		F39E84A112B1CF3D004AE646 /* Problem007.m in Sources */ = {isa = PBXBuildFile; fileRef = F39E84A012B1CF3D004AE646 /* Problem007.m */; };
+		F39E84A412B1CF4A004AE646 /* Problem008.m in Sources */ = {isa = PBXBuildFile; fileRef = F39E84A312B1CF4A004AE646 /* Problem008.m */; };
+		F39E84A712B1CF54004AE646 /* Problem009.m in Sources */ = {isa = PBXBuildFile; fileRef = F39E84A612B1CF54004AE646 /* Problem009.m */; };
+		F39E84AA12B1CF5D004AE646 /* Problem010.m in Sources */ = {isa = PBXBuildFile; fileRef = F39E84A912B1CF5D004AE646 /* Problem010.m */; };
+		F3B0BA6812BEA4B6000005BE /* Problem016.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B0BA6712BEA4B6000005BE /* Problem016.m */; };
+		F3B0BA6F12BEA562000005BE /* Problem017.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B0BA6E12BEA562000005BE /* Problem017.m */; };
+		F3B0BA7412BEA5C1000005BE /* Problem018.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B0BA7312BEA5C1000005BE /* Problem018.m */; };
+		F3B0BA7712BEA5CB000005BE /* Problem019.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B0BA7612BEA5CB000005BE /* Problem019.m */; };
+		F3B0BA7A12BEA5D7000005BE /* Problem020.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B0BA7912BEA5D7000005BE /* Problem020.m */; };
+		F3B1EB2512F0EC36000909F4 /* Problem036.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B1EB2412F0EC36000909F4 /* Problem036.m */; };
+		F3B1EB2812F0EC49000909F4 /* Problem037.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B1EB2712F0EC49000909F4 /* Problem037.m */; };
+		F3B1EB2B12F0EC53000909F4 /* Problem038.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B1EB2A12F0EC53000909F4 /* Problem038.m */; };
+		F3B1EB2E12F0EC5D000909F4 /* Problem039.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B1EB2D12F0EC5D000909F4 /* Problem039.m */; };
+		F3B1EB3112F0EC69000909F4 /* Problem040.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B1EB3012F0EC69000909F4 /* Problem040.m */; };
+		F3B333BD12C2AD7B00B8AB5D /* Problem025.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B333BC12C2AD7B00B8AB5D /* Problem025.m */; };
+		F3B333C012C2ADA500B8AB5D /* Problem022.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B333BF12C2ADA500B8AB5D /* Problem022.m */; };
+		F3B333C312C2ADB600B8AB5D /* Problem023.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B333C212C2ADB600B8AB5D /* Problem023.m */; };
+		F3B333C612C2ADBF00B8AB5D /* Problem024.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B333C512C2ADBF00B8AB5D /* Problem024.m */; };
+		F3B444D412AEA41C00AAA147 /* Problem.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B444D312AEA41C00AAA147 /* Problem.m */; };
+		F3B444EB12AEAA7B00AAA147 /* Problem001.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B444EA12AEAA7B00AAA147 /* Problem001.m */; };
+		F3C2E9FF12A9FF5500D277F2 /* euler.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3C2E9FE12A9FF5500D277F2 /* euler.jpg */; };
+		F3C2EA4A12ACA0CC00D277F2 /* ProblemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C2EA4812ACA0CC00D277F2 /* ProblemViewController.m */; };
+		F3C2EA4B12ACA0CC00D277F2 /* ProblemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3C2EA4912ACA0CC00D277F2 /* ProblemViewController.xib */; };
+		F3D0C21D12DFAADA00697C4E /* Problem032.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D0C21C12DFAADA00697C4E /* Problem032.m */; };
+		F3D0C22012DFAAE500697C4E /* Problem033.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D0C21F12DFAAE500697C4E /* Problem033.m */; };
+		F3D0C22312DFAAF000697C4E /* Problem034.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D0C22212DFAAF000697C4E /* Problem034.m */; };
+		F3D0C22612DFAAF900697C4E /* Problem035.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D0C22512DFAAF900697C4E /* Problem035.m */; };
+		F3D4C98912B12D8A00B6779F /* Problem003.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C98812B12D8A00B6779F /* Problem003.m */; };
+		F3D4C99212B12F7A00B6779F /* Problem004.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C99112B12F7A00B6779F /* Problem004.m */; };
+		F3D4C99512B12F8600B6779F /* Problem005.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C99412B12F8600B6779F /* Problem005.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Project_EulerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project_EulerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Project_EulerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project_EulerAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Project Euler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Euler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* Project_Euler_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project_Euler_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Project_Euler-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Project_Euler-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F30AEE2A12AEEA1600D3FA75 /* Problem002.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem002.h; sourceTree = "<group>"; };
+		F30AEE2B12AEEA1600D3FA75 /* Problem002.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem002.m; sourceTree = "<group>"; };
+		F30C06E712D279AB00C5AB00 /* Problem026.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem026.h; sourceTree = "<group>"; };
+		F30C06E812D279AB00C5AB00 /* Problem026.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem026.m; sourceTree = "<group>"; };
+		F30C06EA12D279B700C5AB00 /* Problem027.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem027.h; sourceTree = "<group>"; };
+		F30C06EB12D279B700C5AB00 /* Problem027.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem027.m; sourceTree = "<group>"; };
+		F30C06ED12D279C200C5AB00 /* Problem028.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem028.h; sourceTree = "<group>"; };
+		F30C06EE12D279C200C5AB00 /* Problem028.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem028.m; sourceTree = "<group>"; };
+		F30C06F012D279D000C5AB00 /* Problem029.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem029.h; sourceTree = "<group>"; };
+		F30C06F112D279D000C5AB00 /* Problem029.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem029.m; sourceTree = "<group>"; };
+		F30C06F312D279DC00C5AB00 /* Problem030.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem030.h; sourceTree = "<group>"; };
+		F30C06F412D279DC00C5AB00 /* Problem030.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem030.m; sourceTree = "<group>"; };
+		F337350A1321EED000A0B449 /* ProblemXXX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProblemXXX.h; sourceTree = "<group>"; };
+		F337350B1321EED000A0B449 /* ProblemXXX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemXXX.m; sourceTree = "<group>"; };
+		F33E9C0B12C64F0700BED7A2 /* names.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = names.txt; path = ../names.txt; sourceTree = "<group>"; };
+		F377EA0612B7F70500C4507C /* Problem013.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem013.h; sourceTree = "<group>"; };
+		F377EA0712B7F70500C4507C /* Problem013.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem013.m; sourceTree = "<group>"; };
+		F377EA3B12B7F93600C4507C /* Problem014.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem014.h; sourceTree = "<group>"; };
+		F377EA3C12B7F93600C4507C /* Problem014.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem014.m; sourceTree = "<group>"; };
+		F377EA3E12B7F98200C4507C /* Problem015.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem015.h; sourceTree = "<group>"; };
+		F377EA3F12B7F98200C4507C /* Problem015.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem015.m; sourceTree = "<group>"; };
+		F37A174D12B30B8B003A77C5 /* Problem011.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem011.h; sourceTree = "<group>"; };
+		F37A174E12B30B8B003A77C5 /* Problem011.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem011.m; sourceTree = "<group>"; };
+		F37FC45512DE38AB00DDCE06 /* Problem031.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem031.h; sourceTree = "<group>"; };
+		F37FC45612DE38AB00DDCE06 /* Problem031.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem031.m; sourceTree = "<group>"; };
+		F380ED4B12C2A424009AD663 /* Problem021.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem021.h; sourceTree = "<group>"; };
+		F380ED4C12C2A424009AD663 /* Problem021.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem021.m; sourceTree = "<group>"; };
+		F38F97E0160AA85F003814DE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F39696C312AF4092006D4E4C /* Importer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Importer.h; sourceTree = "<group>"; };
+		F39696C412AF4092006D4E4C /* Importer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Importer.m; sourceTree = "<group>"; };
+		F398ECE812B33B330094722D /* Problem012.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem012.h; sourceTree = "<group>"; };
+		F398ECE912B33B330094722D /* Problem012.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem012.m; sourceTree = "<group>"; };
+		F39E849712B1CD40004AE646 /* Problem006.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem006.h; sourceTree = "<group>"; };
+		F39E849812B1CD40004AE646 /* Problem006.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem006.m; sourceTree = "<group>"; };
+		F39E849F12B1CF3D004AE646 /* Problem007.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem007.h; sourceTree = "<group>"; };
+		F39E84A012B1CF3D004AE646 /* Problem007.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem007.m; sourceTree = "<group>"; };
+		F39E84A212B1CF4A004AE646 /* Problem008.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem008.h; sourceTree = "<group>"; };
+		F39E84A312B1CF4A004AE646 /* Problem008.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem008.m; sourceTree = "<group>"; };
+		F39E84A512B1CF54004AE646 /* Problem009.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem009.h; sourceTree = "<group>"; };
+		F39E84A612B1CF54004AE646 /* Problem009.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem009.m; sourceTree = "<group>"; };
+		F39E84A812B1CF5D004AE646 /* Problem010.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem010.h; sourceTree = "<group>"; };
+		F39E84A912B1CF5D004AE646 /* Problem010.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem010.m; sourceTree = "<group>"; };
+		F3B0BA6612BEA4B6000005BE /* Problem016.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem016.h; sourceTree = "<group>"; };
+		F3B0BA6712BEA4B6000005BE /* Problem016.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem016.m; sourceTree = "<group>"; };
+		F3B0BA6D12BEA562000005BE /* Problem017.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem017.h; sourceTree = "<group>"; };
+		F3B0BA6E12BEA562000005BE /* Problem017.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem017.m; sourceTree = "<group>"; };
+		F3B0BA7212BEA5C1000005BE /* Problem018.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem018.h; sourceTree = "<group>"; };
+		F3B0BA7312BEA5C1000005BE /* Problem018.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem018.m; sourceTree = "<group>"; };
+		F3B0BA7512BEA5CB000005BE /* Problem019.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem019.h; sourceTree = "<group>"; };
+		F3B0BA7612BEA5CB000005BE /* Problem019.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem019.m; sourceTree = "<group>"; };
+		F3B0BA7812BEA5D7000005BE /* Problem020.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem020.h; sourceTree = "<group>"; };
+		F3B0BA7912BEA5D7000005BE /* Problem020.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem020.m; sourceTree = "<group>"; };
+		F3B1EB2312F0EC36000909F4 /* Problem036.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem036.h; sourceTree = "<group>"; };
+		F3B1EB2412F0EC36000909F4 /* Problem036.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem036.m; sourceTree = "<group>"; };
+		F3B1EB2612F0EC49000909F4 /* Problem037.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem037.h; sourceTree = "<group>"; };
+		F3B1EB2712F0EC49000909F4 /* Problem037.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem037.m; sourceTree = "<group>"; };
+		F3B1EB2912F0EC53000909F4 /* Problem038.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem038.h; sourceTree = "<group>"; };
+		F3B1EB2A12F0EC53000909F4 /* Problem038.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem038.m; sourceTree = "<group>"; };
+		F3B1EB2C12F0EC5D000909F4 /* Problem039.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem039.h; sourceTree = "<group>"; };
+		F3B1EB2D12F0EC5D000909F4 /* Problem039.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem039.m; sourceTree = "<group>"; };
+		F3B1EB2F12F0EC69000909F4 /* Problem040.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem040.h; sourceTree = "<group>"; };
+		F3B1EB3012F0EC69000909F4 /* Problem040.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem040.m; sourceTree = "<group>"; };
+		F3B333BB12C2AD7B00B8AB5D /* Problem025.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem025.h; sourceTree = "<group>"; };
+		F3B333BC12C2AD7B00B8AB5D /* Problem025.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem025.m; sourceTree = "<group>"; };
+		F3B333BE12C2ADA500B8AB5D /* Problem022.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem022.h; sourceTree = "<group>"; };
+		F3B333BF12C2ADA500B8AB5D /* Problem022.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem022.m; sourceTree = "<group>"; };
+		F3B333C112C2ADB600B8AB5D /* Problem023.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem023.h; sourceTree = "<group>"; };
+		F3B333C212C2ADB600B8AB5D /* Problem023.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem023.m; sourceTree = "<group>"; };
+		F3B333C412C2ADBF00B8AB5D /* Problem024.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem024.h; sourceTree = "<group>"; };
+		F3B333C512C2ADBF00B8AB5D /* Problem024.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem024.m; sourceTree = "<group>"; };
+		F3B444D212AEA41C00AAA147 /* Problem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem.h; sourceTree = "<group>"; };
+		F3B444D312AEA41C00AAA147 /* Problem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem.m; sourceTree = "<group>"; };
+		F3B444E912AEAA7B00AAA147 /* Problem001.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem001.h; sourceTree = "<group>"; };
+		F3B444EA12AEAA7B00AAA147 /* Problem001.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem001.m; sourceTree = "<group>"; };
+		F3C2E9FE12A9FF5500D277F2 /* euler.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = euler.jpg; sourceTree = "<group>"; };
+		F3C2EA4712ACA0CC00D277F2 /* ProblemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProblemViewController.h; sourceTree = "<group>"; };
+		F3C2EA4812ACA0CC00D277F2 /* ProblemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemViewController.m; sourceTree = "<group>"; };
+		F3C2EA4912ACA0CC00D277F2 /* ProblemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProblemViewController.xib; sourceTree = "<group>"; };
+		F3D0C21B12DFAADA00697C4E /* Problem032.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem032.h; sourceTree = "<group>"; };
+		F3D0C21C12DFAADA00697C4E /* Problem032.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem032.m; sourceTree = "<group>"; };
+		F3D0C21E12DFAAE500697C4E /* Problem033.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem033.h; sourceTree = "<group>"; };
+		F3D0C21F12DFAAE500697C4E /* Problem033.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem033.m; sourceTree = "<group>"; };
+		F3D0C22112DFAAF000697C4E /* Problem034.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem034.h; sourceTree = "<group>"; };
+		F3D0C22212DFAAF000697C4E /* Problem034.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem034.m; sourceTree = "<group>"; };
+		F3D0C22412DFAAF900697C4E /* Problem035.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem035.h; sourceTree = "<group>"; };
+		F3D0C22512DFAAF900697C4E /* Problem035.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem035.m; sourceTree = "<group>"; };
+		F3D4C98712B12D8A00B6779F /* Problem003.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem003.h; sourceTree = "<group>"; };
+		F3D4C98812B12D8A00B6779F /* Problem003.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem003.m; sourceTree = "<group>"; };
+		F3D4C99012B12F7A00B6779F /* Problem004.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem004.h; sourceTree = "<group>"; };
+		F3D4C99112B12F7A00B6779F /* Problem004.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem004.m; sourceTree = "<group>"; };
+		F3D4C99312B12F8600B6779F /* Problem005.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem005.h; sourceTree = "<group>"; };
+		F3D4C99412B12F8600B6779F /* Problem005.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem005.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F3B444E312AEA85700AAA147 /* Problems */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* Project_EulerAppDelegate.h */,
+				1D3623250D0F684500981E51 /* Project_EulerAppDelegate.m */,
+				F3C2EA4712ACA0CC00D277F2 /* ProblemViewController.h */,
+				F3C2EA4812ACA0CC00D277F2 /* ProblemViewController.m */,
+				F3C2EA4912ACA0CC00D277F2 /* ProblemViewController.xib */,
+				F3B444D212AEA41C00AAA147 /* Problem.h */,
+				F3B444D312AEA41C00AAA147 /* Problem.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Project Euler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				F38F97E0160AA85F003814DE /* Default-568h@2x.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* Project_Euler_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Project_Euler-Info.plist */,
+				F3C2E9FE12A9FF5500D277F2 /* euler.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3B444E312AEA85700AAA147 /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				F3EADA6512CA4F9D00663341 /* Data */,
+				F39696C312AF4092006D4E4C /* Importer.h */,
+				F39696C412AF4092006D4E4C /* Importer.m */,
+				F3B444E912AEAA7B00AAA147 /* Problem001.h */,
+				F3B444EA12AEAA7B00AAA147 /* Problem001.m */,
+				F30AEE2A12AEEA1600D3FA75 /* Problem002.h */,
+				F30AEE2B12AEEA1600D3FA75 /* Problem002.m */,
+				F3D4C98712B12D8A00B6779F /* Problem003.h */,
+				F3D4C98812B12D8A00B6779F /* Problem003.m */,
+				F3D4C99012B12F7A00B6779F /* Problem004.h */,
+				F3D4C99112B12F7A00B6779F /* Problem004.m */,
+				F3D4C99312B12F8600B6779F /* Problem005.h */,
+				F3D4C99412B12F8600B6779F /* Problem005.m */,
+				F39E849712B1CD40004AE646 /* Problem006.h */,
+				F39E849812B1CD40004AE646 /* Problem006.m */,
+				F39E849F12B1CF3D004AE646 /* Problem007.h */,
+				F39E84A012B1CF3D004AE646 /* Problem007.m */,
+				F39E84A212B1CF4A004AE646 /* Problem008.h */,
+				F39E84A312B1CF4A004AE646 /* Problem008.m */,
+				F39E84A512B1CF54004AE646 /* Problem009.h */,
+				F39E84A612B1CF54004AE646 /* Problem009.m */,
+				F39E84A812B1CF5D004AE646 /* Problem010.h */,
+				F39E84A912B1CF5D004AE646 /* Problem010.m */,
+				F37A174D12B30B8B003A77C5 /* Problem011.h */,
+				F37A174E12B30B8B003A77C5 /* Problem011.m */,
+				F398ECE812B33B330094722D /* Problem012.h */,
+				F398ECE912B33B330094722D /* Problem012.m */,
+				F377EA0612B7F70500C4507C /* Problem013.h */,
+				F377EA0712B7F70500C4507C /* Problem013.m */,
+				F377EA3B12B7F93600C4507C /* Problem014.h */,
+				F377EA3C12B7F93600C4507C /* Problem014.m */,
+				F377EA3E12B7F98200C4507C /* Problem015.h */,
+				F377EA3F12B7F98200C4507C /* Problem015.m */,
+				F3B0BA6612BEA4B6000005BE /* Problem016.h */,
+				F3B0BA6712BEA4B6000005BE /* Problem016.m */,
+				F3B0BA6D12BEA562000005BE /* Problem017.h */,
+				F3B0BA6E12BEA562000005BE /* Problem017.m */,
+				F3B0BA7212BEA5C1000005BE /* Problem018.h */,
+				F3B0BA7312BEA5C1000005BE /* Problem018.m */,
+				F3B0BA7512BEA5CB000005BE /* Problem019.h */,
+				F3B0BA7612BEA5CB000005BE /* Problem019.m */,
+				F3B0BA7812BEA5D7000005BE /* Problem020.h */,
+				F3B0BA7912BEA5D7000005BE /* Problem020.m */,
+				F380ED4B12C2A424009AD663 /* Problem021.h */,
+				F380ED4C12C2A424009AD663 /* Problem021.m */,
+				F3B333BB12C2AD7B00B8AB5D /* Problem025.h */,
+				F3B333BC12C2AD7B00B8AB5D /* Problem025.m */,
+				F3B333BE12C2ADA500B8AB5D /* Problem022.h */,
+				F3B333BF12C2ADA500B8AB5D /* Problem022.m */,
+				F3B333C112C2ADB600B8AB5D /* Problem023.h */,
+				F3B333C212C2ADB600B8AB5D /* Problem023.m */,
+				F3B333C412C2ADBF00B8AB5D /* Problem024.h */,
+				F3B333C512C2ADBF00B8AB5D /* Problem024.m */,
+				F30C06E712D279AB00C5AB00 /* Problem026.h */,
+				F30C06E812D279AB00C5AB00 /* Problem026.m */,
+				F30C06EA12D279B700C5AB00 /* Problem027.h */,
+				F30C06EB12D279B700C5AB00 /* Problem027.m */,
+				F30C06ED12D279C200C5AB00 /* Problem028.h */,
+				F30C06EE12D279C200C5AB00 /* Problem028.m */,
+				F30C06F012D279D000C5AB00 /* Problem029.h */,
+				F30C06F112D279D000C5AB00 /* Problem029.m */,
+				F30C06F312D279DC00C5AB00 /* Problem030.h */,
+				F30C06F412D279DC00C5AB00 /* Problem030.m */,
+				F37FC45512DE38AB00DDCE06 /* Problem031.h */,
+				F37FC45612DE38AB00DDCE06 /* Problem031.m */,
+				F3D0C21B12DFAADA00697C4E /* Problem032.h */,
+				F3D0C21C12DFAADA00697C4E /* Problem032.m */,
+				F3D0C21E12DFAAE500697C4E /* Problem033.h */,
+				F3D0C21F12DFAAE500697C4E /* Problem033.m */,
+				F3D0C22112DFAAF000697C4E /* Problem034.h */,
+				F3D0C22212DFAAF000697C4E /* Problem034.m */,
+				F3D0C22412DFAAF900697C4E /* Problem035.h */,
+				F3D0C22512DFAAF900697C4E /* Problem035.m */,
+				F3B1EB2312F0EC36000909F4 /* Problem036.h */,
+				F3B1EB2412F0EC36000909F4 /* Problem036.m */,
+				F3B1EB2612F0EC49000909F4 /* Problem037.h */,
+				F3B1EB2712F0EC49000909F4 /* Problem037.m */,
+				F3B1EB2912F0EC53000909F4 /* Problem038.h */,
+				F3B1EB2A12F0EC53000909F4 /* Problem038.m */,
+				F3B1EB2C12F0EC5D000909F4 /* Problem039.h */,
+				F3B1EB2D12F0EC5D000909F4 /* Problem039.m */,
+				F3B1EB2F12F0EC69000909F4 /* Problem040.h */,
+				F3B1EB3012F0EC69000909F4 /* Problem040.m */,
+				F337350A1321EED000A0B449 /* ProblemXXX.h */,
+				F337350B1321EED000A0B449 /* ProblemXXX.m */,
+			);
+			name = Problems;
+			sourceTree = "<group>";
+		};
+		F3EADA6512CA4F9D00663341 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F33E9C0B12C64F0700BED7A2 /* names.txt */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Project Euler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Project Euler" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project Euler";
+			productName = "Project Euler";
+			productReference = 1D6058910D05DD3D006BFB54 /* Project Euler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Project Euler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Project Euler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				F3C2E9FF12A9FF5500D277F2 /* euler.jpg in Resources */,
+				F3C2EA4B12ACA0CC00D277F2 /* ProblemViewController.xib in Resources */,
+				F33E9C0C12C64F0700BED7A2 /* names.txt in Resources */,
+				F38F97E1160AA85F003814DE /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Project_EulerAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				F3C2EA4A12ACA0CC00D277F2 /* ProblemViewController.m in Sources */,
+				F3B444D412AEA41C00AAA147 /* Problem.m in Sources */,
+				F3B444EB12AEAA7B00AAA147 /* Problem001.m in Sources */,
+				F30AEE2C12AEEA1600D3FA75 /* Problem002.m in Sources */,
+				F39696C512AF4092006D4E4C /* Importer.m in Sources */,
+				F3D4C98912B12D8A00B6779F /* Problem003.m in Sources */,
+				F3D4C99212B12F7A00B6779F /* Problem004.m in Sources */,
+				F3D4C99512B12F8600B6779F /* Problem005.m in Sources */,
+				F39E849912B1CD40004AE646 /* Problem006.m in Sources */,
+				F39E84A112B1CF3D004AE646 /* Problem007.m in Sources */,
+				F39E84A412B1CF4A004AE646 /* Problem008.m in Sources */,
+				F39E84A712B1CF54004AE646 /* Problem009.m in Sources */,
+				F39E84AA12B1CF5D004AE646 /* Problem010.m in Sources */,
+				F37A174F12B30B8B003A77C5 /* Problem011.m in Sources */,
+				F398ECEA12B33B330094722D /* Problem012.m in Sources */,
+				F377EA0812B7F70500C4507C /* Problem013.m in Sources */,
+				F377EA3D12B7F93600C4507C /* Problem014.m in Sources */,
+				F377EA4012B7F98200C4507C /* Problem015.m in Sources */,
+				F3B0BA6812BEA4B6000005BE /* Problem016.m in Sources */,
+				F3B0BA6F12BEA562000005BE /* Problem017.m in Sources */,
+				F3B0BA7412BEA5C1000005BE /* Problem018.m in Sources */,
+				F3B0BA7712BEA5CB000005BE /* Problem019.m in Sources */,
+				F3B0BA7A12BEA5D7000005BE /* Problem020.m in Sources */,
+				F380ED4D12C2A424009AD663 /* Problem021.m in Sources */,
+				F3B333BD12C2AD7B00B8AB5D /* Problem025.m in Sources */,
+				F3B333C012C2ADA500B8AB5D /* Problem022.m in Sources */,
+				F3B333C312C2ADB600B8AB5D /* Problem023.m in Sources */,
+				F3B333C612C2ADBF00B8AB5D /* Problem024.m in Sources */,
+				F30C06E912D279AB00C5AB00 /* Problem026.m in Sources */,
+				F30C06EC12D279B700C5AB00 /* Problem027.m in Sources */,
+				F30C06EF12D279C200C5AB00 /* Problem028.m in Sources */,
+				F30C06F212D279D000C5AB00 /* Problem029.m in Sources */,
+				F30C06F512D279DC00C5AB00 /* Problem030.m in Sources */,
+				F37FC45712DE38AB00DDCE06 /* Problem031.m in Sources */,
+				F3D0C21D12DFAADA00697C4E /* Problem032.m in Sources */,
+				F3D0C22012DFAAE500697C4E /* Problem033.m in Sources */,
+				F3D0C22312DFAAF000697C4E /* Problem034.m in Sources */,
+				F3D0C22612DFAAF900697C4E /* Problem035.m in Sources */,
+				F3B1EB2512F0EC36000909F4 /* Problem036.m in Sources */,
+				F3B1EB2812F0EC49000909F4 /* Problem037.m in Sources */,
+				F3B1EB2B12F0EC53000909F4 /* Problem038.m in Sources */,
+				F3B1EB2E12F0EC5D000909F4 /* Problem039.m in Sources */,
+				F3B1EB3112F0EC69000909F4 /* Problem040.m in Sources */,
+				F337350C1321EED000A0B449 /* ProblemXXX.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Project_Euler_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Project_Euler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "Project Euler";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Project_Euler_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Project_Euler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "Project Euler";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Project Euler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Project Euler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

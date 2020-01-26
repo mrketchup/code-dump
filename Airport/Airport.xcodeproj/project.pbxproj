@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F324B93817B67C2900254C07 /* BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F324B93717B67C2900254C07 /* BackgroundLayer.m */; };
+		F324B93A17B67C4500254C07 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F324B93917B67C4500254C07 /* QuartzCore.framework */; };
+		F324B93D17B687FC00254C07 /* Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = F324B93C17B687FC00254C07 /* Colors.m */; };
+		F324B94017B696A600254C07 /* AirportSaveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F324B93F17B696A600254C07 /* AirportSaveManager.m */; };
+		F324B94417B8090500254C07 /* AirportTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F324B94317B8090500254C07 /* AirportTableViewCell.m */; };
+		F324B94817B8463400254C07 /* airport_dir_ring_small.png in Resources */ = {isa = PBXBuildFile; fileRef = F324B94617B8456A00254C07 /* airport_dir_ring_small.png */; };
+		F324B94917B8463400254C07 /* airport_dir_ring_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F324B94717B8456A00254C07 /* airport_dir_ring_small@2x.png */; };
+		F324B94C17B848E500254C07 /* AirportTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F324B94B17B848E500254C07 /* AirportTableViewHeaderView.m */; };
+		F324B94E17B84D4800254C07 /* AirportTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F324B94D17B84A7100254C07 /* AirportTableViewHeaderView.xib */; };
+		F324B95217B8577B00254C07 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F324B95117B8577B00254C07 /* CoreLocation.framework */; };
+		F324B95517B85E8B00254C07 /* NearbyAirportsFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F324B95417B85E8B00254C07 /* NearbyAirportsFetcher.m */; };
+		F324B95C17B897B700254C07 /* AirportViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F324B95B17B897B700254C07 /* AirportViewHeaderView.xib */; };
+		F324B95F17B899A500254C07 /* AirportViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F324B95E17B899A500254C07 /* AirportViewHeaderView.m */; };
+		F324B96217B89EC100254C07 /* AirportViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F324B96117B89EC100254C07 /* AirportViewCell.m */; };
+		F35154BE17B2CBD200FEDBCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35154BD17B2CBD200FEDBCA /* UIKit.framework */; };
+		F35154C017B2CBD200FEDBCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35154BF17B2CBD200FEDBCA /* Foundation.framework */; };
+		F35154C217B2CBD200FEDBCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35154C117B2CBD200FEDBCA /* CoreGraphics.framework */; };
+		F35154C817B2CBD200FEDBCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F35154C617B2CBD200FEDBCA /* InfoPlist.strings */; };
+		F35154CA17B2CBD200FEDBCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F35154C917B2CBD200FEDBCA /* main.m */; };
+		F35154CE17B2CBD200FEDBCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F35154CD17B2CBD200FEDBCA /* AppDelegate.m */; };
+		F35154D017B2CBD200FEDBCA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F35154CF17B2CBD200FEDBCA /* Default.png */; };
+		F35154D217B2CBD200FEDBCA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F35154D117B2CBD200FEDBCA /* Default@2x.png */; };
+		F35154D417B2CBD200FEDBCA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F35154D317B2CBD200FEDBCA /* Default-568h@2x.png */; };
+		F35154D717B2CBD200FEDBCA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35154D517B2CBD200FEDBCA /* MainStoryboard.storyboard */; };
+		F35154DA17B2CBD200FEDBCA /* AirportTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35154D917B2CBD200FEDBCA /* AirportTableViewController.m */; };
+		F35154DD17B2CBD200FEDBCA /* AirportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35154DC17B2CBD200FEDBCA /* AirportViewController.m */; };
+		F35154E617B3012300FEDBCA /* AirportStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = F35154E517B3012300FEDBCA /* AirportStatus.m */; };
+		F35154EA17B3038700FEDBCA /* Airport.m in Sources */ = {isa = PBXBuildFile; fileRef = F35154E917B3038700FEDBCA /* Airport.m */; };
+		F35154ED17B30A0A00FEDBCA /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = F35154EC17B30A0A00FEDBCA /* Weather.m */; };
+		F35154FE17B3199400FEDBCA /* airport_airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = F35154F017B3199400FEDBCA /* airport_airplane.png */; };
+		F35154FF17B3199400FEDBCA /* airport_airplane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F35154F117B3199400FEDBCA /* airport_airplane@2x.png */; };
+		F351550017B3199400FEDBCA /* airport_alert.png in Resources */ = {isa = PBXBuildFile; fileRef = F35154F217B3199400FEDBCA /* airport_alert.png */; };
+		F351550117B3199400FEDBCA /* airport_alert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F35154F317B3199400FEDBCA /* airport_alert@2x.png */; };
+		F351550217B3199400FEDBCA /* airport_cloud_1_quarter.png in Resources */ = {isa = PBXBuildFile; fileRef = F35154F417B3199400FEDBCA /* airport_cloud_1_quarter.png */; };
+		F351550317B3199400FEDBCA /* airport_cloud_1_quarter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F35154F517B3199400FEDBCA /* airport_cloud_1_quarter@2x.png */; };
+		F351550417B3199400FEDBCA /* airport_cloud_3_quarter.png in Resources */ = {isa = PBXBuildFile; fileRef = F35154F617B3199400FEDBCA /* airport_cloud_3_quarter.png */; };
+		F351550517B3199400FEDBCA /* airport_cloud_3_quarter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F35154F717B3199400FEDBCA /* airport_cloud_3_quarter@2x.png */; };
+		F351550617B3199400FEDBCA /* airport_cloud_full.png in Resources */ = {isa = PBXBuildFile; fileRef = F35154F817B3199400FEDBCA /* airport_cloud_full.png */; };
+		F351550717B3199400FEDBCA /* airport_cloud_full@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F35154F917B3199400FEDBCA /* airport_cloud_full@2x.png */; };
+		F351550817B3199400FEDBCA /* airport_cloud_half.png in Resources */ = {isa = PBXBuildFile; fileRef = F35154FA17B3199400FEDBCA /* airport_cloud_half.png */; };
+		F351550917B3199400FEDBCA /* airport_cloud_half@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F35154FB17B3199400FEDBCA /* airport_cloud_half@2x.png */; };
+		F351550A17B3199400FEDBCA /* airport_dir_ring.png in Resources */ = {isa = PBXBuildFile; fileRef = F35154FC17B3199400FEDBCA /* airport_dir_ring.png */; };
+		F351550B17B3199400FEDBCA /* airport_dir_ring@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F35154FD17B3199400FEDBCA /* airport_dir_ring@2x.png */; };
+		F351551617B3FE7F00FEDBCA /* AirportStatusFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F351551317B3FE7F00FEDBCA /* AirportStatusFetcher.m */; };
+		F351551717B3FE7F00FEDBCA /* AirportStatusParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F351551517B3FE7F00FEDBCA /* AirportStatusParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F324B93617B67C2900254C07 /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
+		F324B93717B67C2900254C07 /* BackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLayer.m; sourceTree = "<group>"; };
+		F324B93917B67C4500254C07 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F324B93B17B687FC00254C07 /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
+		F324B93C17B687FC00254C07 /* Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colors.m; sourceTree = "<group>"; };
+		F324B93E17B696A600254C07 /* AirportSaveManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AirportSaveManager.h; path = model/AirportSaveManager.h; sourceTree = "<group>"; };
+		F324B93F17B696A600254C07 /* AirportSaveManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AirportSaveManager.m; path = model/AirportSaveManager.m; sourceTree = "<group>"; };
+		F324B94217B8090500254C07 /* AirportTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirportTableViewCell.h; sourceTree = "<group>"; };
+		F324B94317B8090500254C07 /* AirportTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirportTableViewCell.m; sourceTree = "<group>"; };
+		F324B94617B8456A00254C07 /* airport_dir_ring_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = airport_dir_ring_small.png; path = assets/airport_dir_ring_small.png; sourceTree = "<group>"; };
+		F324B94717B8456A00254C07 /* airport_dir_ring_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "airport_dir_ring_small@2x.png"; path = "assets/airport_dir_ring_small@2x.png"; sourceTree = "<group>"; };
+		F324B94A17B848E500254C07 /* AirportTableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirportTableViewHeaderView.h; sourceTree = "<group>"; };
+		F324B94B17B848E500254C07 /* AirportTableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirportTableViewHeaderView.m; sourceTree = "<group>"; };
+		F324B94D17B84A7100254C07 /* AirportTableViewHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AirportTableViewHeaderView.xib; sourceTree = "<group>"; };
+		F324B95117B8577B00254C07 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F324B95317B85E8B00254C07 /* NearbyAirportsFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NearbyAirportsFetcher.h; path = model/NearbyAirportsFetcher.h; sourceTree = "<group>"; };
+		F324B95417B85E8B00254C07 /* NearbyAirportsFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NearbyAirportsFetcher.m; path = model/NearbyAirportsFetcher.m; sourceTree = "<group>"; };
+		F324B95B17B897B700254C07 /* AirportViewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AirportViewHeaderView.xib; sourceTree = "<group>"; };
+		F324B95D17B899A500254C07 /* AirportViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirportViewHeaderView.h; sourceTree = "<group>"; };
+		F324B95E17B899A500254C07 /* AirportViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirportViewHeaderView.m; sourceTree = "<group>"; };
+		F324B96017B89EC100254C07 /* AirportViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirportViewCell.h; sourceTree = "<group>"; };
+		F324B96117B89EC100254C07 /* AirportViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirportViewCell.m; sourceTree = "<group>"; };
+		F35154BA17B2CBD200FEDBCA /* Airport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35154BD17B2CBD200FEDBCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F35154BF17B2CBD200FEDBCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F35154C117B2CBD200FEDBCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F35154C517B2CBD200FEDBCA /* Airport-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Airport-Info.plist"; sourceTree = "<group>"; };
+		F35154C717B2CBD200FEDBCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F35154C917B2CBD200FEDBCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F35154CB17B2CBD200FEDBCA /* Airport-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Airport-Prefix.pch"; sourceTree = "<group>"; };
+		F35154CC17B2CBD200FEDBCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F35154CD17B2CBD200FEDBCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F35154CF17B2CBD200FEDBCA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F35154D117B2CBD200FEDBCA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F35154D317B2CBD200FEDBCA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F35154D617B2CBD200FEDBCA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F35154D817B2CBD200FEDBCA /* AirportTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirportTableViewController.h; sourceTree = "<group>"; };
+		F35154D917B2CBD200FEDBCA /* AirportTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirportTableViewController.m; sourceTree = "<group>"; };
+		F35154DB17B2CBD200FEDBCA /* AirportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirportViewController.h; sourceTree = "<group>"; };
+		F35154DC17B2CBD200FEDBCA /* AirportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirportViewController.m; sourceTree = "<group>"; };
+		F35154E417B3012300FEDBCA /* AirportStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AirportStatus.h; path = model/AirportStatus.h; sourceTree = "<group>"; };
+		F35154E517B3012300FEDBCA /* AirportStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AirportStatus.m; path = model/AirportStatus.m; sourceTree = "<group>"; };
+		F35154E817B3038700FEDBCA /* Airport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Airport.h; path = model/Airport.h; sourceTree = "<group>"; };
+		F35154E917B3038700FEDBCA /* Airport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Airport.m; path = model/Airport.m; sourceTree = "<group>"; };
+		F35154EB17B30A0A00FEDBCA /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Weather.h; path = model/Weather.h; sourceTree = "<group>"; };
+		F35154EC17B30A0A00FEDBCA /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Weather.m; path = model/Weather.m; sourceTree = "<group>"; };
+		F35154F017B3199400FEDBCA /* airport_airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = airport_airplane.png; path = assets/airport_airplane.png; sourceTree = "<group>"; };
+		F35154F117B3199400FEDBCA /* airport_airplane@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "airport_airplane@2x.png"; path = "assets/airport_airplane@2x.png"; sourceTree = "<group>"; };
+		F35154F217B3199400FEDBCA /* airport_alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = airport_alert.png; path = assets/airport_alert.png; sourceTree = "<group>"; };
+		F35154F317B3199400FEDBCA /* airport_alert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "airport_alert@2x.png"; path = "assets/airport_alert@2x.png"; sourceTree = "<group>"; };
+		F35154F417B3199400FEDBCA /* airport_cloud_1_quarter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = airport_cloud_1_quarter.png; path = assets/airport_cloud_1_quarter.png; sourceTree = "<group>"; };
+		F35154F517B3199400FEDBCA /* airport_cloud_1_quarter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "airport_cloud_1_quarter@2x.png"; path = "assets/airport_cloud_1_quarter@2x.png"; sourceTree = "<group>"; };
+		F35154F617B3199400FEDBCA /* airport_cloud_3_quarter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = airport_cloud_3_quarter.png; path = assets/airport_cloud_3_quarter.png; sourceTree = "<group>"; };
+		F35154F717B3199400FEDBCA /* airport_cloud_3_quarter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "airport_cloud_3_quarter@2x.png"; path = "assets/airport_cloud_3_quarter@2x.png"; sourceTree = "<group>"; };
+		F35154F817B3199400FEDBCA /* airport_cloud_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = airport_cloud_full.png; path = assets/airport_cloud_full.png; sourceTree = "<group>"; };
+		F35154F917B3199400FEDBCA /* airport_cloud_full@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "airport_cloud_full@2x.png"; path = "assets/airport_cloud_full@2x.png"; sourceTree = "<group>"; };
+		F35154FA17B3199400FEDBCA /* airport_cloud_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = airport_cloud_half.png; path = assets/airport_cloud_half.png; sourceTree = "<group>"; };
+		F35154FB17B3199400FEDBCA /* airport_cloud_half@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "airport_cloud_half@2x.png"; path = "assets/airport_cloud_half@2x.png"; sourceTree = "<group>"; };
+		F35154FC17B3199400FEDBCA /* airport_dir_ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = airport_dir_ring.png; path = assets/airport_dir_ring.png; sourceTree = "<group>"; };
+		F35154FD17B3199400FEDBCA /* airport_dir_ring@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "airport_dir_ring@2x.png"; path = "assets/airport_dir_ring@2x.png"; sourceTree = "<group>"; };
+		F351551217B3FE7F00FEDBCA /* AirportStatusFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AirportStatusFetcher.h; path = model/AirportStatusFetcher.h; sourceTree = "<group>"; };
+		F351551317B3FE7F00FEDBCA /* AirportStatusFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AirportStatusFetcher.m; path = model/AirportStatusFetcher.m; sourceTree = "<group>"; };
+		F351551417B3FE7F00FEDBCA /* AirportStatusParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AirportStatusParser.h; path = model/AirportStatusParser.h; sourceTree = "<group>"; };
+		F351551517B3FE7F00FEDBCA /* AirportStatusParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AirportStatusParser.m; path = model/AirportStatusParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F35154B717B2CBD200FEDBCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F324B95217B8577B00254C07 /* CoreLocation.framework in Frameworks */,
+				F324B93A17B67C4500254C07 /* QuartzCore.framework in Frameworks */,
+				F35154BE17B2CBD200FEDBCA /* UIKit.framework in Frameworks */,
+				F35154C017B2CBD200FEDBCA /* Foundation.framework in Frameworks */,
+				F35154C217B2CBD200FEDBCA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F324B94117B8089800254C07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F35154D517B2CBD200FEDBCA /* MainStoryboard.storyboard */,
+				F324B94217B8090500254C07 /* AirportTableViewCell.h */,
+				F324B94317B8090500254C07 /* AirportTableViewCell.m */,
+				F324B96017B89EC100254C07 /* AirportViewCell.h */,
+				F324B96117B89EC100254C07 /* AirportViewCell.m */,
+				F324B94A17B848E500254C07 /* AirportTableViewHeaderView.h */,
+				F324B94B17B848E500254C07 /* AirportTableViewHeaderView.m */,
+				F324B94D17B84A7100254C07 /* AirportTableViewHeaderView.xib */,
+				F324B95D17B899A500254C07 /* AirportViewHeaderView.h */,
+				F324B95E17B899A500254C07 /* AirportViewHeaderView.m */,
+				F324B95B17B897B700254C07 /* AirportViewHeaderView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F324B94517B8098C00254C07 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F35154D817B2CBD200FEDBCA /* AirportTableViewController.h */,
+				F35154D917B2CBD200FEDBCA /* AirportTableViewController.m */,
+				F35154DB17B2CBD200FEDBCA /* AirportViewController.h */,
+				F35154DC17B2CBD200FEDBCA /* AirportViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F35154B117B2CBD100FEDBCA = {
+			isa = PBXGroup;
+			children = (
+				F35154C317B2CBD200FEDBCA /* Airport */,
+				F35154BC17B2CBD200FEDBCA /* Frameworks */,
+				F35154BB17B2CBD200FEDBCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F35154BB17B2CBD200FEDBCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F35154BA17B2CBD200FEDBCA /* Airport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F35154BC17B2CBD200FEDBCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F324B95117B8577B00254C07 /* CoreLocation.framework */,
+				F324B93917B67C4500254C07 /* QuartzCore.framework */,
+				F35154BD17B2CBD200FEDBCA /* UIKit.framework */,
+				F35154BF17B2CBD200FEDBCA /* Foundation.framework */,
+				F35154C117B2CBD200FEDBCA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F35154C317B2CBD200FEDBCA /* Airport */ = {
+			isa = PBXGroup;
+			children = (
+				F35154C417B2CBD200FEDBCA /* Supporting Files */,
+				F35154E717B3012A00FEDBCA /* Model */,
+				F324B94117B8089800254C07 /* View */,
+				F324B94517B8098C00254C07 /* Controller */,
+			);
+			path = Airport;
+			sourceTree = "<group>";
+		};
+		F35154C417B2CBD200FEDBCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F35154EE17B318F800FEDBCA /* Images */,
+				F35154CC17B2CBD200FEDBCA /* AppDelegate.h */,
+				F35154CD17B2CBD200FEDBCA /* AppDelegate.m */,
+				F35154C517B2CBD200FEDBCA /* Airport-Info.plist */,
+				F35154C617B2CBD200FEDBCA /* InfoPlist.strings */,
+				F35154C917B2CBD200FEDBCA /* main.m */,
+				F35154CB17B2CBD200FEDBCA /* Airport-Prefix.pch */,
+				F324B93617B67C2900254C07 /* BackgroundLayer.h */,
+				F324B93717B67C2900254C07 /* BackgroundLayer.m */,
+				F324B93B17B687FC00254C07 /* Colors.h */,
+				F324B93C17B687FC00254C07 /* Colors.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F35154E717B3012A00FEDBCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F35154E817B3038700FEDBCA /* Airport.h */,
+				F35154E917B3038700FEDBCA /* Airport.m */,
+				F35154E417B3012300FEDBCA /* AirportStatus.h */,
+				F35154E517B3012300FEDBCA /* AirportStatus.m */,
+				F35154EB17B30A0A00FEDBCA /* Weather.h */,
+				F35154EC17B30A0A00FEDBCA /* Weather.m */,
+				F351551217B3FE7F00FEDBCA /* AirportStatusFetcher.h */,
+				F351551317B3FE7F00FEDBCA /* AirportStatusFetcher.m */,
+				F351551417B3FE7F00FEDBCA /* AirportStatusParser.h */,
+				F351551517B3FE7F00FEDBCA /* AirportStatusParser.m */,
+				F324B93E17B696A600254C07 /* AirportSaveManager.h */,
+				F324B93F17B696A600254C07 /* AirportSaveManager.m */,
+				F324B95317B85E8B00254C07 /* NearbyAirportsFetcher.h */,
+				F324B95417B85E8B00254C07 /* NearbyAirportsFetcher.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F35154EE17B318F800FEDBCA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F35154F017B3199400FEDBCA /* airport_airplane.png */,
+				F35154F117B3199400FEDBCA /* airport_airplane@2x.png */,
+				F35154F217B3199400FEDBCA /* airport_alert.png */,
+				F35154F317B3199400FEDBCA /* airport_alert@2x.png */,
+				F35154F417B3199400FEDBCA /* airport_cloud_1_quarter.png */,
+				F35154F517B3199400FEDBCA /* airport_cloud_1_quarter@2x.png */,
+				F35154F617B3199400FEDBCA /* airport_cloud_3_quarter.png */,
+				F35154F717B3199400FEDBCA /* airport_cloud_3_quarter@2x.png */,
+				F35154F817B3199400FEDBCA /* airport_cloud_full.png */,
+				F35154F917B3199400FEDBCA /* airport_cloud_full@2x.png */,
+				F35154FA17B3199400FEDBCA /* airport_cloud_half.png */,
+				F35154FB17B3199400FEDBCA /* airport_cloud_half@2x.png */,
+				F35154FC17B3199400FEDBCA /* airport_dir_ring.png */,
+				F35154FD17B3199400FEDBCA /* airport_dir_ring@2x.png */,
+				F324B94617B8456A00254C07 /* airport_dir_ring_small.png */,
+				F324B94717B8456A00254C07 /* airport_dir_ring_small@2x.png */,
+				F35154CF17B2CBD200FEDBCA /* Default.png */,
+				F35154D117B2CBD200FEDBCA /* Default@2x.png */,
+				F35154D317B2CBD200FEDBCA /* Default-568h@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F35154B917B2CBD200FEDBCA /* Airport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35154E017B2CBD200FEDBCA /* Build configuration list for PBXNativeTarget "Airport" */;
+			buildPhases = (
+				F35154B617B2CBD200FEDBCA /* Sources */,
+				F35154B717B2CBD200FEDBCA /* Frameworks */,
+				F35154B817B2CBD200FEDBCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Airport;
+			productName = Airport;
+			productReference = F35154BA17B2CBD200FEDBCA /* Airport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F35154B217B2CBD100FEDBCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Mattjones;
+				TargetAttributes = {
+					F35154B917B2CBD200FEDBCA = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F35154B517B2CBD100FEDBCA /* Build configuration list for PBXProject "Airport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F35154B117B2CBD100FEDBCA;
+			productRefGroup = F35154BB17B2CBD200FEDBCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F35154B917B2CBD200FEDBCA /* Airport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F35154B817B2CBD200FEDBCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F324B94E17B84D4800254C07 /* AirportTableViewHeaderView.xib in Resources */,
+				F324B94817B8463400254C07 /* airport_dir_ring_small.png in Resources */,
+				F324B94917B8463400254C07 /* airport_dir_ring_small@2x.png in Resources */,
+				F35154C817B2CBD200FEDBCA /* InfoPlist.strings in Resources */,
+				F35154D017B2CBD200FEDBCA /* Default.png in Resources */,
+				F324B95C17B897B700254C07 /* AirportViewHeaderView.xib in Resources */,
+				F35154D217B2CBD200FEDBCA /* Default@2x.png in Resources */,
+				F35154D417B2CBD200FEDBCA /* Default-568h@2x.png in Resources */,
+				F35154D717B2CBD200FEDBCA /* MainStoryboard.storyboard in Resources */,
+				F35154FE17B3199400FEDBCA /* airport_airplane.png in Resources */,
+				F35154FF17B3199400FEDBCA /* airport_airplane@2x.png in Resources */,
+				F351550017B3199400FEDBCA /* airport_alert.png in Resources */,
+				F351550117B3199400FEDBCA /* airport_alert@2x.png in Resources */,
+				F351550217B3199400FEDBCA /* airport_cloud_1_quarter.png in Resources */,
+				F351550317B3199400FEDBCA /* airport_cloud_1_quarter@2x.png in Resources */,
+				F351550417B3199400FEDBCA /* airport_cloud_3_quarter.png in Resources */,
+				F351550517B3199400FEDBCA /* airport_cloud_3_quarter@2x.png in Resources */,
+				F351550617B3199400FEDBCA /* airport_cloud_full.png in Resources */,
+				F351550717B3199400FEDBCA /* airport_cloud_full@2x.png in Resources */,
+				F351550817B3199400FEDBCA /* airport_cloud_half.png in Resources */,
+				F351550917B3199400FEDBCA /* airport_cloud_half@2x.png in Resources */,
+				F351550A17B3199400FEDBCA /* airport_dir_ring.png in Resources */,
+				F351550B17B3199400FEDBCA /* airport_dir_ring@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F35154B617B2CBD200FEDBCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35154CA17B2CBD200FEDBCA /* main.m in Sources */,
+				F35154CE17B2CBD200FEDBCA /* AppDelegate.m in Sources */,
+				F324B95F17B899A500254C07 /* AirportViewHeaderView.m in Sources */,
+				F324B94017B696A600254C07 /* AirportSaveManager.m in Sources */,
+				F35154DA17B2CBD200FEDBCA /* AirportTableViewController.m in Sources */,
+				F324B93817B67C2900254C07 /* BackgroundLayer.m in Sources */,
+				F35154DD17B2CBD200FEDBCA /* AirportViewController.m in Sources */,
+				F35154E617B3012300FEDBCA /* AirportStatus.m in Sources */,
+				F324B94417B8090500254C07 /* AirportTableViewCell.m in Sources */,
+				F35154EA17B3038700FEDBCA /* Airport.m in Sources */,
+				F324B93D17B687FC00254C07 /* Colors.m in Sources */,
+				F35154ED17B30A0A00FEDBCA /* Weather.m in Sources */,
+				F324B96217B89EC100254C07 /* AirportViewCell.m in Sources */,
+				F324B94C17B848E500254C07 /* AirportTableViewHeaderView.m in Sources */,
+				F324B95517B85E8B00254C07 /* NearbyAirportsFetcher.m in Sources */,
+				F351551617B3FE7F00FEDBCA /* AirportStatusFetcher.m in Sources */,
+				F351551717B3FE7F00FEDBCA /* AirportStatusParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F35154C617B2CBD200FEDBCA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35154C717B2CBD200FEDBCA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F35154D517B2CBD200FEDBCA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35154D617B2CBD200FEDBCA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F35154DE17B2CBD200FEDBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F35154DF17B2CBD200FEDBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F35154E117B2CBD200FEDBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Airport/Airport-Prefix.pch";
+				INFOPLIST_FILE = "Airport/Airport-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F35154E217B2CBD200FEDBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Airport/Airport-Prefix.pch";
+				INFOPLIST_FILE = "Airport/Airport-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F35154B517B2CBD100FEDBCA /* Build configuration list for PBXProject "Airport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35154DE17B2CBD200FEDBCA /* Debug */,
+				F35154DF17B2CBD200FEDBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35154E017B2CBD200FEDBCA /* Build configuration list for PBXNativeTarget "Airport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35154E117B2CBD200FEDBCA /* Debug */,
+				F35154E217B2CBD200FEDBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F35154B217B2CBD100FEDBCA /* Project object */;
+}
