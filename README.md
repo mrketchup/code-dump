@@ -1,2 +1,2 @@
 # code-dump
-Old random code preserved posterity
+Old random code preserved for posterity
